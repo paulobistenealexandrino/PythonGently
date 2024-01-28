@@ -1,6 +1,11 @@
 # Exercise #6: Ordinal Suffix
 
 def ordinalSuffix(number: int) -> str:
+    """Return the ordinal equivalent of a given integer number.
+    
+    Key arguments:
+    number -- a integer number
+    """
     str_num = str(number)
     # Special cases 11th, 12th and 13th
     if len(str_num) > 1 and str_num[-2] == '1':

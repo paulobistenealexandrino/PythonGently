@@ -2,4 +2,4 @@
 
 Este diretório documenta minhas soluções dos exercícios propostos no livro [Python Programming Exercises, Gently Explained](https://inventwithpython.com/pythongently/), escrito por Al Sweigart.
 
-Número ded exercícios completos: 6
+Exercícios Concluídos: 10/42
