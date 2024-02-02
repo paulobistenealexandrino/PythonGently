@@ -3,6 +3,11 @@ import random
 random.seed(42)
 
 def generatePassword(length=12) -> str:
+    """Generate random password containing at least 12 characters, 1 lowercase, 1 uppercase, 1 numeral e 1 special.
+    
+    Key arguments:
+    length -- password length
+    """
     import random
 
     if length < 12:

@@ -1,6 +1,12 @@
 # Exercise #18: Buy 8 Get 1 Free
 
 def getCostOfCoffee(numberOfCoffees: int, pricePerCoffee: float) -> float:
+    """Return the total cost of coffee after a buy 8 get 1 free sale.
+    
+    Key arguments:
+    numberOfCoffees -- number of coffees bought;
+    pricePerCoffee -- price per coffee
+    """
     return (numberOfCoffees*pricePerCoffee) - (numberOfCoffees//9)*pricePerCoffee
 
 # Testing function
